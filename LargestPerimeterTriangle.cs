@@ -4,8 +4,6 @@
     {
         public int LargestPerimeter(int[] nums)
         {
-            var perimeter = 0;
-
             Array.Sort(nums);
 
             for (var i = nums.Length-1; i >= 2; i--)
@@ -16,7 +14,7 @@
                 }
             }
 
-            return perimeter;
+            return 0;
         }
     }
 }
