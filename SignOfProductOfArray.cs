@@ -5,20 +5,20 @@
         public int ArraySign(int[] nums)
         {
             Array.Sort(nums);
-
-            var number = 0;
+            
+            var result = true;
             foreach (var num in nums)
             {
                 if (num > 0)
-                    return number%2 == 0 ? 1 : -1;
+                    return result ? 1 : -1;
 
                 if (num == 0)
                     return 0;
 
-                number++;
+                result = result == false;
             }
 
-            return number % 2 == 0 ? 1 : -1;
+            return result ? 1 : -1;
         }
     }
 }
