@@ -3,10 +3,7 @@
     public class HappyNumber
     {
         public bool IsHappy(int n)
-        {
-            if (n < 0 )
-                return false;
-
+        { 
             var result = n;
             var resultList = new List<int>();
             do
@@ -22,7 +19,7 @@
             } while (result != 1);
 
             return true;
-        }
+        } 
 
         public int HappinessCalculation(int n)
         {
