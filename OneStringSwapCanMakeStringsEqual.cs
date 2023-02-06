@@ -6,27 +6,26 @@ namespace Leetcode
     {
         public bool AreAlmostEqual(string s1, string s2)
         {
+            var dif = 0;
+            var number = 0;
             for (var i = 0; i < s1.Length; i++)
             {
-                for (var j = 0; j < s1.Length; j++)
+                if (s1[i] != s2[i])
                 {
-                    var equals = s1.ToCharArray();
+                    if (dif > 0
+                        && s2[i] != s1[number])
+                        return false;
 
-                    equals[i] = s1[j];
-                    equals[j] = s1[i];
+                    dif++;
+                    number = i;
 
-                    var result = true;
-                    for (var k = 0; k < s2.Length; k++)
-                    {
-                        if (equals[k] != s2[k])
-                            result = false;
-                    }
-
-                    if (result)
-                        return true;
+                    if (!s2.Contains(s1[number]))
+                        return false;
                 }
+                if (dif > 2)
+                    return false;
             }
-            return false;
+            return dif == 2 || dif == 0;
         }
     }
 }
