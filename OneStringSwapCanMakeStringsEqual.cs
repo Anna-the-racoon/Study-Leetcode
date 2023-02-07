@@ -19,11 +19,10 @@ namespace Leetcode
                     dif++;
                     number = i;
 
-                    if (!s2.Contains(s1[number]))
+                    if (!s2.Contains(s1[number]) 
+                        || dif > 2)
                         return false;
                 }
-                if (dif > 2)
-                    return false;
             }
             return dif == 2 || dif == 0;
         }
