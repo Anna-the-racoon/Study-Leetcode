@@ -1,6 +1,4 @@
-﻿using System.Text.RegularExpressions;
-
-namespace Leetcode
+﻿namespace Leetcode
 {
     public class OneStringSwapCanMakeStringsEqual
     {
@@ -13,16 +11,16 @@ namespace Leetcode
                 if (s1[i] == s2[i]) 
                     continue;
 
+                if (dif > 2)
+                    return false;
+
                 if (dif > 0
-                    && s2[i] != s1[number])
+                    && s2[i] != s1[number]
+                    && s1[i] != s2[number])
                     return false;
 
                 dif++;
                 number = i;
-
-                if (!s2.Contains(s1[number]) 
-                    || dif > 2)
-                    return false;
             }
             return dif == 2 || dif == 0;
         }
