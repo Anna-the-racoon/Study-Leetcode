@@ -1,0 +1,12 @@
+C:\PROJECTS\MyOwn\Leetcode\src\Leetcode.Logic\Leetcode.Logic\bin\Debug\net8.0\Leetcode.Logic.deps.json
+C:\PROJECTS\MyOwn\Leetcode\src\Leetcode.Logic\Leetcode.Logic\bin\Debug\net8.0\Leetcode.Logic.dll
+C:\PROJECTS\MyOwn\Leetcode\src\Leetcode.Logic\Leetcode.Logic\bin\Debug\net8.0\Leetcode.Logic.pdb
+C:\PROJECTS\MyOwn\Leetcode\src\Leetcode.Logic\Leetcode.Logic\obj\Debug\net8.0\Leetcode.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJECTS\MyOwn\Leetcode\src\Leetcode.Logic\Leetcode.Logic\obj\Debug\net8.0\Leetcode.Logic.AssemblyInfoInputs.cache
+C:\PROJECTS\MyOwn\Leetcode\src\Leetcode.Logic\Leetcode.Logic\obj\Debug\net8.0\Leetcode.Logic.AssemblyInfo.cs
+C:\PROJECTS\MyOwn\Leetcode\src\Leetcode.Logic\Leetcode.Logic\obj\Debug\net8.0\Leetcode.Logic.csproj.CoreCompileInputs.cache
+C:\PROJECTS\MyOwn\Leetcode\src\Leetcode.Logic\Leetcode.Logic\obj\Debug\net8.0\Leetcode.Logic.sourcelink.json
+C:\PROJECTS\MyOwn\Leetcode\src\Leetcode.Logic\Leetcode.Logic\obj\Debug\net8.0\Leetcode.Logic.dll
+C:\PROJECTS\MyOwn\Leetcode\src\Leetcode.Logic\Leetcode.Logic\obj\Debug\net8.0\refint\Leetcode.Logic.dll
+C:\PROJECTS\MyOwn\Leetcode\src\Leetcode.Logic\Leetcode.Logic\obj\Debug\net8.0\Leetcode.Logic.pdb
+C:\PROJECTS\MyOwn\Leetcode\src\Leetcode.Logic\Leetcode.Logic\obj\Debug\net8.0\ref\Leetcode.Logic.dll
