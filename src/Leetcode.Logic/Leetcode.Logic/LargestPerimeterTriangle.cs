@@ -1,4 +1,4 @@
-﻿namespace Leetcode;
+﻿namespace Leetcode.Logic;
 
 public class LargestPerimeterTriangle
 {
@@ -6,11 +6,11 @@ public class LargestPerimeterTriangle
     {
         Array.Sort(nums);
 
-        for (var i = nums.Length-1; i >= 2; i--)
+        for (var i = nums.Length - 1; i >= 2; i--)
         {
             if (nums[i] < nums[i - 1] + nums[i - 2])
             {
-                return (nums[i] + nums[i - 1] + nums[i - 2]);
+                return nums[i] + nums[i - 1] + nums[i - 2];
             }
         }
 

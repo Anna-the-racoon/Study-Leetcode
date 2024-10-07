@@ -1,24 +1,23 @@
-﻿namespace Leetcode
+﻿namespace Leetcode.Logic;
+
+public class SubtractTheProductAndSumOfDigitsOfAnInteger
 {
-    public class SubtractTheProductAndSumOfDigitsOfAnInteger
+    public int SubtractProductAndSum(int number)
     {
-        public int SubtractProductAndSum(int number)
+        var product = 1;
+        var sum = 0;
+
+        do
         {
-            var product = 1;
-            var sum = 0;
+            var element = number % 10;
 
-            do
-            {
-                var element = number % 10;
+            product *= element;
 
-                product *= element;
+            sum += element;
 
-                sum += element;
+            number /= 10;
+        } while (number > 0);
 
-                number /= 10;
-            } while (number > 0);
-
-            return product - sum;
-        }
+        return product - sum;
     }
 }

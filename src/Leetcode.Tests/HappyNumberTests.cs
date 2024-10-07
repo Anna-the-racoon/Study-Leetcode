@@ -1,21 +1,21 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Leetcode;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Leetcode.Tests
+namespace LeetcodeTests;
+
+[TestClass()]
+public class HappyNumberTests
 {
-    [TestClass()]
-    public class HappyNumberTests
+    [TestMethod()]
+    public void IsHappyTest()
     {
-        [TestMethod()]
-        public void IsHappyTest()
-        {
-            var service = new HappyNumber();
+        var service = new HappyNumber();
 
-            Assert.AreEqual(true, service.IsHappy(19));
+        Assert.AreEqual(true, service.IsHappy(19));
 
-            Assert.AreEqual(false, service.IsHappy(2));
+        Assert.AreEqual(false, service.IsHappy(2));
 
-            Assert.AreEqual(true, service.IsHappy(1));
+        Assert.AreEqual(true, service.IsHappy(1));
 
-        }
     }
 }

@@ -1,9 +1,9 @@
-﻿namespace Leetcode;
+﻿namespace Leetcode.Logic;
 
 public class HappyNumber
 {
     public bool IsHappy(int n)
-    { 
+    {
         var result = n;
         var resultList = new List<int>();
         do
@@ -19,7 +19,7 @@ public class HappyNumber
         } while (result != 1);
 
         return true;
-    } 
+    }
 
     public int HappinessCalculation(int n)
     {
